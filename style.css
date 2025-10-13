@@ -1,0 +1,101 @@
+/* the * alone indicates rules for all elements in html files. */
+/*called a universal selector*/
+body {
+    box-sizing: border-box;
+    margin:10px;
+    padding:10px;
+    font-family:'Baskerville';
+    background: #ffffff;
+    color:#6b6774;
+}
+
+.myName {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.nav-items {
+    height:60px;
+    background-color: #ffffff;
+    display: flex; /*for horizontally aligned items*/
+    justify-content:space-around; /*for aligning items on vertical axis*/
+    align-items:center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.page {
+    display:block;
+    border: 1px solid #6b6774;
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.page-content {
+    text-align:left;
+    font-size: 18px;
+}
+
+.dates {
+    font-size: 14px;
+}
+
+.other-accounts {
+    display:flex;
+    justify-content: space-around;
+}
+
+img.page.thumbnails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 5px;
+    gap: 1em;
+}
+
+.big_pic {
+    gap:2em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+p {
+    margin: 20px;
+    padding:20px;
+    line-height: 30px;
+}
+
+.piece_title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+h3 {
+    margin: 18px;
+    padding: 15px;
+}
+
+h4 {
+    margin: 18px;
+    padding: 15px;
+}
+
+.socials {
+    display:flex;
+    margin:10px;
+    
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}

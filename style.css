@@ -13,16 +13,6 @@ body {
     text-align: center;
 }
 
-.dropdown {
-    height:60px;
-    background-color: #ffffff;
-    display: flex; /*for horizontally aligned items*/
-    justify-content:space-around; /*for aligning items on vertical axis*/
-    align-items:center;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 20px;
-}
 
 .dropdownbutton {
     height:60px;

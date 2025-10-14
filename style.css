@@ -14,7 +14,7 @@ body {
 }
 
 
-.dropdownbutton {
+.dropdown button {
     height:60px;
     background-color: #ffffff;
     display: flex; /*for horizontally aligned items*/

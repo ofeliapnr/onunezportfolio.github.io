@@ -2,6 +2,7 @@
 /*called a universal selector*/
 body {
     font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
     background: #ffffff;
     color:#6b6774;
 }

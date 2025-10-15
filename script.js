@@ -1,17 +1,21 @@
 //events blah blah
-// https://www.youtube.com/watch?v=gHMBdpTx-Ys (tutorial I used)
 
-//get button & dropdown content elements
-const dropdownButton = document.getElementById('dropdownButton');
-const dropdownContent = document.getElementById('dropdownContent');
-
-//listen for clicks on the dropdown button
-dropdownButton.addEventListener('click', ()=>{
-    //toggle visibility of dropdown content
-    dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-});
-
-window.addEventListener('click', (event) => {
-    //close dropdown if click is outside
-    dropdownContent.style.display = 'none';
-});
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
